@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CleanTube</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app-container">
+      <div id="top-bar">
+        <h1>CleanTube</h1>
+        <div class="top-bar-actions">
+          <button
+            id="toggle-sidebar-btn"
+            class="icon-btn"
+            title="Toggle Sidebar"
+          >
+            <i class="ri-menu-line"></i>
+          </button>
+          <button
+            id="fullscreen-btn"
+            class="icon-btn"
+            title="Toggle Fullscreen"
+          >
+            <i class="ri-fullscreen-line"></i>
+          </button>
+        </div>
+      </div>
+
+      <div id="sidebar">
+        <div class="sidebar-section">
+          <div class="list-header">
+            <h3>YouTube URL</h3>
+          </div>
+          <div class="input-group">
+            <input type="text" id="url-input" placeholder="Enter YouTube URL" />
+            <button id="load-btn">Load</button>
+          </div>
+        </div>
+
+        <div class="list-section">
+          <div class="list-header">
+            <h3>Playlists</h3>
+            <div class="action-buttons">
+              <button
+                id="add-playlist-btn"
+                class="action-btn"
+                title="Add Playlist"
+              >
+                <i class="ri-add-line"></i>
+              </button>
+              <button
+                id="clear-playlists-btn"
+                class="action-btn"
+                title="Clear Playlists"
+              >
+                <i class="ri-delete-bin-line"></i>
+              </button>
+            </div>
+          </div>
+          <div class="item-list">
+            <ul id="playlist-list"></ul>
+          </div>
+        </div>
+
+        <div class="list-section">
+          <div class="list-header">
+            <h3>Saved Videos</h3>
+            <div class="action-buttons">
+              <button id="add-video-btn" class="action-btn" title="Add Videos">
+                <i class="ri-add-line"></i>
+              </button>
+
+              <button
+                id="clear-videos-btn"
+                class="action-btn"
+                title="Clear Videos"
+              >
+                <i class="ri-delete-bin-line"></i>
+              </button>
+            </div>
+          </div>
+          <div class="item-list">
+            <ul id="saved-videos"></ul>
+          </div>
+        </div>
+      </div>
+
+      <div id="main-content">
+        <div id="video-container">
+          <iframe id="video-player" src="" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div id="notification-container"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
