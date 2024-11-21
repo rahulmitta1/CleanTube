@@ -42,10 +42,10 @@ Stay focused and enjoy an uninterrupted viewing experience with the simplest int
 
 ## 📸 Screenshots
 
-![Clean Tube - Main Screen](https://example.com/screenshot1.jpg)  
+![image](https://github.com/user-attachments/assets/2b075705-70b5-4e78-bbfc-65199fb46587)
 _Your saved videos and playlists in one neat collection._
 
-![Clean Tube - Rename Modal](https://example.com/screenshot2.jpg)  
+![image](https://github.com/user-attachments/assets/5b77c656-4976-41ae-8e83-1737846c1993)
 _Rename your saved items for better organization._
 
 ---
