@@ -75,7 +75,7 @@ To get started with **Clean Tube**:
 
 ## 🔗 Links
 
-- [Clean Tube](https://example.com) _(Coming soon!)_
+- [Clean Tube](https://spreadsheets600.github.io/CleanTube/)
 
 ---
 
